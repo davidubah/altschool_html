@@ -1,0 +1,54 @@
+<!-- media.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About David</title>
+</head>
+<body>
+    <header>
+        <h1>About David</h1>
+    </header>
+
+    <section>
+        <h2>Welcome Message</h2>
+        <p>Hello! I'm David Ubah, a passionate cloud engineer and advocate for renewable energy solutions. Explore my journey below!</p>
+    </section>
+
+    <section>
+        <h2>Picture of David</h2>
+        <picture>
+            <source srcset="david.jpeg" media="(min-width: 1024px)">
+            <source srcset="david.jpeg" media="(min-width: 768px)">
+            <source srcset="david.jpeg" media="(max-width: 767px)">
+            <img src="david.jpeg" alt="A photo of David Ubah with a zero smile 😂">
+        </picture>
+    </section>
+
+    <section>
+        <h2>Video Message</h2>
+        <video controls width="70%" height="400">
+            <source src="brainstorming.mp4" type="video/mp4">
+            <p>Your browser does not support the video tag.</p>
+        </video>
+    </section>
+
+    <section>
+        <h2>Audio Message</h2>
+        <audio controls>
+            <source src="Up on the Housetop - Acoustic.mp3" type="audio/mpeg">
+            <p>Your browser does not support the audio tag.</p>
+        </audio>
+    </section>
+
+    <section>
+        <h2>David's Portfolio</h2>
+        <iframe src="https://davidubah.github.io/resume/" title="David's GitHub" width="100%" height="500" bg-color="g"></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 David Ubah</p>
+    </footer>
+</body>
+</html>
